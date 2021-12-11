@@ -29,5 +29,4 @@ defmodule Aoc2021Solutions do
     Aoc2021Solutions.read_day_one_puzzle_input
     |> Aoc2021.day_one
   end
-
 end
