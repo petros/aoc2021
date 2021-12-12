@@ -23,7 +23,7 @@ answer for each puzzle. You will see the code of course, and that may spoil the
 fun. But at least you will not see the actual answer that gets you the star.
 
 If you want to see the answer, you can check `lib/aoc2021_solutions.ex`. It's in
-the doctests. That where I read the puzzle input and use the functions in
+the doctests. That is where I read the puzzle input and use the functions in
 `aoc2021.ex` to find the answers.
 
 ## Why Elixir
@@ -33,7 +33,7 @@ Also, leaving the safe harbor of Ruby is intriguing.
 
 ## Playing with it
 
-You need [Elrang] and [Elixir] . I am using [Homebrew] and [asdf] to install all
+You need [Erlang] and [Elixir] . I am using [Homebrew] and [asdf] to install all
 dependencies on macOS. Your mileage may vary. Once you have Elixir installed,
 You can play in `iex`.
 
