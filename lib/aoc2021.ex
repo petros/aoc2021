@@ -1,10 +1,15 @@
 defmodule Aoc2021 do
   @moduledoc """
-  Documentation for `Aoc2021`.
+  Each function answers the puzzle for each day of [Advent of Code][1]. Each
+  function has doctests that solve the example input. So no spoilers in this
+  module. Other than the actual code that solves the puzzle of course. The code
+  can definitely be better as I am a novice Elixir coder.
+  
+  [1]: https://adventofcode.com
   """
 
   @doc """
-  Day one.
+  Day one. Figure out how quickly the depth increases.
   
   As the submarine drops below the surface of the ocean, it automatically
   performs a sonar sweep of the nearby sea floor. On a small screen, the sonar
@@ -74,7 +79,8 @@ defmodule Aoc2021 do
   end
   
   @doc """
-  Day one --- Part Two ---
+  Day one part two. Figure out how quickly the depth increases but this time
+  using a three-measurement sliding window to reduce noise in the data.
 
   Considering every single measurement isn't as useful as you expected: there's
   just too much noise in the data.
