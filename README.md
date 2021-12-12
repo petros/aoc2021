@@ -30,3 +30,27 @@ the doctests. That where I read the puzzle input and use the functions in
 
 I cannot explain it. Something inexplicable is drawing me to this language.
 Also, leaving the safe harbor of Ruby is intriguing.
+
+## Playing with it
+
+You need [Elrang] and [Elixir] . I am using [Homebrew] and [asdf] to install all
+dependencies on macOS. Your mileage may vary. Once you have Elixir installed,
+You can play in `iex`.
+
+```shell
+iex -S mix
+```
+
+then in `iex` you can type the following, for example, to solve [day one's
+puzzle example][day-one-example] — (no spoiler):
+
+```elixir
+iex> Aoc2021.day_one([199, 200, 208, 210, 200, 207, 240, 269, 260, 263])
+7
+```
+
+[Erlang]: https://exercism.org/docs/tracks/erlang/installation
+[Elixir]: https://elixir-lang.org/install.html
+[Homebrew]: https://brew.sh
+[asdf]: https://asdf-vm.com
+[day-one-example]: https://adventofcode.com/2021/day/1
