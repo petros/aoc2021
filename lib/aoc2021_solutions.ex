@@ -1,8 +1,7 @@
 defmodule Aoc2021Solutions do
   @moduledoc """
-  These are the answers for Aoc2021.
-  
-  **SPOILER ALERT:** The doc tests reveal the answers.
+  These are the answers for Aoc2021. **SPOILER ALERT:** The doc tests reveal the
+  answers.
   """
   
   require Aoc2021
