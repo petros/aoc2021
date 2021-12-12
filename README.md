@@ -14,7 +14,8 @@ The excitment and scariness of this deed.
 
 You will find the functions that solve the examples in `lib/aoc2021.ex`.
 
-You will find the functions that load the puzzle inputs and spit the final answer for each day (both parts) in `lib/aoc2021_solutions.ex`.
+You will find the functions that load the puzzle inputs and spit the final
+answer for each day (both parts) in `lib/aoc2021_solutions.ex`.
 
 I am doing it like that so that you can safely browse `lib/aoc2021.ex` without
 any spoilers. You can check how I solve each puzzle, without seeing the actual
@@ -23,3 +24,8 @@ fun. But at least you will not see the actual answer that gets you the star.
 
 If you want to see the answer, you can check `lib/aoc2021_solutions.ex`. It's in
 the doctests.
+
+## Why Elixir
+
+I cannot explain it. Something inexplicable is drawing me to this language.
+Also, leaving the safe harbor of Ruby is intriguing.
