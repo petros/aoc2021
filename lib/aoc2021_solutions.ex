@@ -17,7 +17,7 @@ defmodule Aoc2021Solutions do
     |> Enum.map(&String.to_integer/1)
   end
   
-  @doc"""
+  @doc """
   Find the answer to day one puzzle.
   
   ## Examples
@@ -29,4 +29,17 @@ defmodule Aoc2021Solutions do
     Aoc2021Solutions.read_day_one_puzzle_input
     |> Aoc2021.day_one
   end
+  
+  @doc """
+  Find the answer to day one part two puzzle.
+  
+  ## Examples
+  
+      iex> Aoc2021Solutions.day_one_p2_answer()
+      1150
+  """
+  def day_one_p2_answer() do
+    Aoc2021Solutions.read_day_one_puzzle_input
+    |> Aoc2021.day_one_p2
+  end  
 end
