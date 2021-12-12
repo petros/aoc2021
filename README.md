@@ -45,6 +45,9 @@ then in `iex` you can type the following, for example, to solve [day one's
 puzzle example][day-one-example] — (no spoiler):
 
 ```elixir
+# Find how many times the depth increases in the
+# sonar list of measurements we are passing to the
+# function
 iex> Aoc2021.day_one([199, 200, 208, 210, 200, 207, 240, 269, 260, 263])
 7
 ```
