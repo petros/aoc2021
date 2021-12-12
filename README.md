@@ -23,7 +23,8 @@ answer for each puzzle. You will see the code of course, and that may spoil the
 fun. But at least you will not see the actual answer that gets you the star.
 
 If you want to see the answer, you can check `lib/aoc2021_solutions.ex`. It's in
-the doctests.
+the doctests. That where I read the puzzle input and use the functions in
+`aoc2021.ex` to find the answers.
 
 ## Why Elixir
 
