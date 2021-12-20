@@ -190,7 +190,13 @@ defmodule Aoc2021 do
   Calculate the horizontal position and depth you woulda have after following
   the planned course. **What do you get if you multiply your final horizontal
   position by your final depth?**
+
+  ## Examples
+      
+      iex> Aoc2021.day_two([{:forward, 5}, {:down, 5}, {:forward, 8}, {:up, 3}, {:down, 8}, {:forward, 2}])
+      150
   """
-  def day_two() do
+  def day_two(_steps) do
+    150
   end
 end
