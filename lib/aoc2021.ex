@@ -9,7 +9,7 @@ defmodule Aoc2021 do
   """
 
   @doc """
-  Day one. Figure out how quickly the depth increases.
+  Day 1. Figure out how quickly the depth increases.
 
   As the submarine drops below the surface of the ocean, it automatically
   performs a sonar sweep of the nearby sea floor. On a small screen, the sonar
@@ -79,8 +79,8 @@ defmodule Aoc2021 do
   end
 
   @doc """
-  Day one part two. Figure out how quickly the depth increases but this time
-  using a three-measurement sliding window to reduce noise in the data.
+  Day 1 part 2. Figure out how quickly the depth increases but this time using
+  a three-measurement sliding window to reduce noise in the data.
 
   Considering every single measurement isn't as useful as you expected: there's
   just too much noise in the data.
@@ -148,7 +148,7 @@ defmodule Aoc2021 do
   end
 
   @doc """
-  --- Day 2: Dive! ---
+  Day 2: Dive!
 
   Now, you need to figure out how to pilot this thing.
 
