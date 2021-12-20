@@ -14,7 +14,7 @@ defmodule Aoc2021Solutions do
   """
   @spec read_day_one_puzzle_input() :: list
   def read_day_one_puzzle_input do
-    {:ok, data} = File.read("lib/inputs/day_one_puzzle_input.txt")
+    {:ok, data} = File.read("lib/inputs/01_day_one_puzzle_input.txt")
     data
     |> String.split("\n")\
     |> Enum.map(&String.to_integer/1)
