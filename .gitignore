@@ -24,3 +24,6 @@ aoc2021-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# JetBrains IDEs
+.idea/
